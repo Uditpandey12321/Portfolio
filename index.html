@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udit Narayan Pandey - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d82c6f6fc7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="download.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span id="element"></span></p>
+                <h1>Hi, I'm <span>Udit Narayan Pandey</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Udit Narayan Pandey, a B.Tech student in Information Technology at GL Bajaj Institute of Technology and Management. I'm passionate about full-stack development and cloud technologies. With a strong foundation in the MERN stack and various programming languages, I strive to create efficient and scalable solutions.
+                        I am eager to continuously expand my knowledge and practical skills through hands-on projects and collaborative learning experiences within the dynamic field of technology
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li class="skill-head"><h3>Programming Languages</h3>
+                                <ul>
+                                    <li>C, Java, Python, JavaScript</li>
+                                </ul>
+                            </li>
+                            <li class="skill-head"><h3>Full Stack Development</h3>
+                                <ul>
+                                    <li><strong>Frontend</strong>: HTML, CSS, JavaScript, ReactJS</li>
+                                    <li><strong>Backend</strong>: Node.js, Express.js, MongoDB</li>
+                                </ul>
+                            </li>
+                            <li class="skill-head"><h3>Cloud & Security</h3>
+                                <ul>
+                                    <li>AWS Cloud Services</li>
+                                    <li>Cyber Security Fundamentals</li>
+                                </ul>
+                            </li>
+                            <li class="skill-head"><h3>Tools & Technologies</h3>
+                                <ul>
+                                    <li>VS Code, IntelliJ IDEA, Power BI</li>
+                                    <li>Git, GitHub, MySQL</li>
+                                </ul>
+                            </li>
+                            <li class="skill-head"><h3>Soft Skills</h3>
+                                <ul>
+                                    <li>Leadership, Team Management</li>
+                                    <li>Problem Solving, Communication</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+<!-- ... previous code remains the same ... -->
+
+<div class="tab-contents" id="experience">
+    <ul>
+        <li class="skill-head">
+            <h3>Freelance Full Stack Developer (2023 - Present)</h3>
+            <ul>
+                <li>
+                    <strong>E-commerce Platform</strong>
+                    <p>Developed a complete e-commerce solution using MERN stack with MySQL database integration. Implemented secure payment gateway and inventory management system.</p>
+                </li>
+                <li>
+                    <strong>Student Management System</strong>
+                    <p>Created a comprehensive student management system using MySQL for data management. Features include attendance tracking, grade management, and performance analytics.</p>
+                </li>
+            </ul>
+        </li>
+        <li class="skill-head">
+            <h3>Technical Skills Applied</h3>
+            <ul>
+                <li>Database design and optimization using MySQL</li>
+                <li>RESTful API development with Node.js and Express</li>
+                <li>Frontend development using React.js</li>
+                <li>Version control with Git and GitHub</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<!-- ... rest of the code remains the same ... -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <h3>2022 - 2026</h3>
+                                <p>B.Tech in Information Technology<br><b>GL Bajaj Institute of Technology and Management</b>, Greater Noida</p>
+                            </li>
+                            <li>
+                                <h3>2021</h3>
+                                <p>Class XII<br><b>BNS English School Naria BHU</b>, Varanasi</p>
+                            </li>
+                            <li>
+                                <h3>2019</h3>
+                                <p>Class X<br><b>BNS English School Naria BHU</b>, Varanasi</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services and Portfolio sections remain the same -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> uditnarayanpandey12321@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pandey-udit-narayan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/Pa40927Udit?t=jVdEAucivRg-7BT0GXWxng&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/Uditpandey12321" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="https://github.com/Uditpandey12321/My_Resume.git" class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2024. Made by Udit Narayan Pandey</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
